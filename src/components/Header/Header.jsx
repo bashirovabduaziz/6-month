@@ -21,7 +21,7 @@ const Header = () => {
                <li><NavLink className='text-white font-[300]' to={'/subs'}>Subscriptions</NavLink></li>
              </ul>
              <div className='flex items-center gap-2'>
-              <Link>
+              <Link to={'/search'}>
               <IoSearchOutline className='text-white w-[20px] h-[20px]'/>
               </Link>
             <Link>

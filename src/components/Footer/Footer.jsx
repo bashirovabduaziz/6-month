@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='bg-[#0F0F0F] h-[300px] mt-[100px]'>
     <div className='container '>
          <div className="md:flex items-center justify-between sm:flex-row mt-8">
-          <ul className='flex gap-[140px] mt-[50px]'>
+          <ul className='flex gap-[140px] mt-[50px] flex-wrap'>
             <li className='cursor-pointer '>
               <p className='font-[400] text-white '>Home</p> 
               <p className='text-[#999999] text-[200] mt-[10px]'>Categories</p>

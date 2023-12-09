@@ -23,3 +23,24 @@
 body{
 background: #141414;
 }
+.card{
+    background:  linear-gradient(221deg, rgba(229, 0, 0, 0.50) 0%, rgba(229, 0, 0, 0) 81%);
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border:1px #262626 solid;
+    cursor: pointer;
+}
+input{
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+::placeholder{
+    color: white;
+}
+.hr{
+    border: 1px #E50000 solid;
+    background: linear-gradient(#E5000000, #E50000, #E5000000);
+}
