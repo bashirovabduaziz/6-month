@@ -18,8 +18,9 @@ const Movies = () => {
 
   ]
   return (
-    <div className='container'>
+    <div>
         <Header />
+    <div className='container'>
         <Carusel slides={slides}/>
         <div className='h-[1450px] border-[2px] border-gray-800 mt-10 rounded-[10px] relative'>  
         
@@ -33,7 +34,9 @@ const Movies = () => {
        
         <Card1 />
 
-        <Footer />
+    </div>
+    <Footer />
+
     </div>
   )
 }

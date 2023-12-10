@@ -7,8 +7,9 @@ import Input from "../../components/Input/Input";
 
 const Support = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
+    <div className="container">
       <Input />
         <div>
           <h1 className="text-white text-[38px] font-[700] mt-10">
@@ -34,7 +35,9 @@ const Support = () => {
         </div>
       </div>
       <Card1 />
-      <Footer />
+    </div>
+    <Footer />
+
     </div>
       
   );
