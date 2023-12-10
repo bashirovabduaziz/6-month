@@ -10,6 +10,7 @@ import Game from '../../img/vr.png'
 import Vr from '../../img/console.png'
 import HomeCards from '../../components/HomeCards/HomeCards';
 import Card from '../../components/HomeCards/Card';
+import Card1 from '../../components/Card/Card';
 
 
 
@@ -99,6 +100,7 @@ const Home = () => {
                 <div>
                   <Card />
                 </div>
+                <Card1 />
            </div>
         <Footer />
     </div>

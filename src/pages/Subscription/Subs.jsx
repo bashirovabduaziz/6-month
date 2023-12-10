@@ -6,6 +6,7 @@ const Subs = () => {
   return (
     <div>
         <Header />
+        
         <Footer />
     </div>
   )

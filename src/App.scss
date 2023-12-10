@@ -44,3 +44,9 @@ input{
     border: 1px #E50000 solid;
     background: linear-gradient(#E5000000, #E50000, #E5000000);
 }
+.bg1{
+    background-image: url('./img/img.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 300px;
+}
